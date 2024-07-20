@@ -8,6 +8,7 @@ const mysym = Symbol("key1")
 
 const jsuser = { 
 name:"ankit",
+[mysym ]: "mykey1" ,
 "full name" :"ankit tiwari",
 Age: "18",
 location:"Rohtas",
@@ -16,10 +17,51 @@ isLoggedIn :false,
 lastLoginDays:["Monday","saturday"]
 }
 
-console.log(jsuser.email)
-console.log(jsuser["email"])
-console.log(jsuser["full name"])
-console.logg(typeof jsuser.[mysym])
+// console.log(jsuser.email)
+// console.log(jsuser["email"])
+// console.log(jsuser["full name"])
+// console.log(jsuser[mysym])
+
+jsuser.email ="Ankit@towercapital.com"
+// Object.freeze(jsuser)
+jsuser.email ="hitesh@microsoft.com"
+
+console.log(jsuser);
+// agar aap jaise hi ssquare bracket ka use krenge turant hi pta lag jayega ki symbol hain ki nhi 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
