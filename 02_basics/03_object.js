@@ -26,11 +26,20 @@ jsuser.email ="Ankit@towercapital.com"
 // Object.freeze(jsuser)
 jsuser.email ="hitesh@microsoft.com"
 
-console.log(jsuser);
+// console.log(jsuser);
+
 // agar aap jaise hi ssquare bracket ka use krenge turant hi pta lag jayega ki symbol hain ki nhi 
+jsuser.greeting = function(){
+console.log("hello js user");
+}
 
+jsuser.greetingTwo = function(){
+  console.log('hello js user,${this.name}');
+}
 
+console.log(jsuser.greeting);
 
+console.log(jsuser.greetingTwo);
 
 
 
