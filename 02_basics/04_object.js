@@ -11,7 +11,7 @@ tinderuser.id = "123abc"
 
 tinderuser.name = "sammy"
 
-tinderuser.islogeein = false
+tinderuser.islogeedin = false
 
 
 // console.log(tinderuser) ;
@@ -30,7 +30,7 @@ fullname: {
   }
 }
 
-console.log(regularuser.fullname.userfullname.firstname);
+// console.log(regularuser.fullname.userfullname.firstname);
 
 const obj1 = {1: "a",2:"b"}
 const obj2 = {3: "a",4:"b"}
@@ -61,13 +61,36 @@ const obj3 = {...obj1 ,...obj2}
 // ]
 
 // users[1].Email
-console.log(tinderuser);
+// console.log(tinderuser);
 
- console.log(Object.keys(tinderuser));
- //console.log(object.values(tinderuser));
-//console.log(object.entries(tinderuser));
+//  console.log(Object.keys(tinderuser));
+//  console.log(object.values(tinderuser));
+
+//  console.log(object.entries(tinderuser));
+
+//console.log(tinderuser.hasOwnproperty('isloggedin'));
+
+const course = {
+  coursename:"js in hindi",
+  price:"999",
+
+courseInstructor:"hitesh",}
+
+//  course.courseInstructor 
+
+const{courseInstructor} = course
+
+//this is use to doing the destructure of value
 
 
+console.log(courseInstructor);
 
+// // //{
+// //     "name":"ankit" ,
+// //     "coursename":"js in hindi" ,
+// //     "price":"free"
 
+// }
 
+// this is json file looks like objec
+ 
