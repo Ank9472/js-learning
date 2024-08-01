@@ -24,21 +24,3 @@ const arr = [5,4,3,2,1]
  for(const num of arr){
     // console.log(num);
  }
-
-//  const greetings= "Hello World"
-//  for(const grret of greetings{console.log('Each char is ${greet}')}
-
-// Maps -duplicate entries is not allowed all are unique
-
-
-const map = new Map()
-map.set('IN' ,"India")
-map.set('ch' ,"chinese")
-map.set('ban' ,"bangladesh")
-
-// console.log(map);
-
-for( const key of map )
-
-
-
