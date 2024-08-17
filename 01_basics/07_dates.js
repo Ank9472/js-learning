@@ -20,7 +20,7 @@ console.log(myCreateDate.getTime());
 console.log(Date.now());
 
 
-// gain isko kam krna hoga last me thoda sa dikkat hua hain
+//again isko kam krna hoga last me thoda sa dikkat hua hain
 
 
 
